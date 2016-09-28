@@ -15,6 +15,7 @@ Bad bots are defined as:
 - ~~~Russian search engine Yandex~~~ (Per users request Yandex was removed)
 - Chinese search engine Baidu
 - Spamhaus IP list block
+- "Good bots" (for beta, dev site)
 
 Baidu
 ------------
