@@ -15,8 +15,7 @@ Bad bots are defined as:
 - ~~~Russian search engine Yandex~~~ (Per users request Yandex was removed)
 - Chinese search engine Baidu
 - Spamhaus IP list block
-- "Good bots" (for beta, dev site)
-
+- Search bots: To avoid search engines index the private site(s)
 
 ## Installation
 
@@ -38,6 +37,7 @@ git clone https://github.com/mariusv/nginx-badbot-blocker.git
 ##
 include nginx-badbot-blocker/blacklist.conf;
 include nginx-badbot-blocker/blockips.conf;
+include nginx-badbot-blocker/searchbots.conf;
 ```
 
 **Step 3.)** Run the following command to verify your Nginx configuration is valid. (*Note: You may need to prepend sudo to this command.*)
